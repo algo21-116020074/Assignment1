@@ -20,7 +20,7 @@ The estimation method used is `Monte Carlo simulation` to optimize the Mean-Vari
   
 **Conclusions**  
   
-The research conclusions of this article are a powerful supplement to China's investment portfolio theory, and at the same time have certain practical reference value for investors: although volatility is a common indicator to measure investment risk, it is not the most effective indicator because when assets fluctuate upwards, it can often bring higher investment returns to investors. Therefore, when constructing investment portfolios, the downside risks of assets should be considered, especially to increase the management of tail risks. For example, the CVAR minimization model used in this article can be used in The portfolio optimization process reduces the tail risk of the portfolio, so that the risk-adjusted return of the portfolio.  
+The research conclusions of this article are a powerful supplement to China's investment portfolio theory, and at the same time have certain practical reference value for investors: although volatility is a common indicator to measure investment risk, it is not the most effective indicator because when assets fluctuate upwards, it can often bring higher investment returns to investors. Therefore, when constructing investment portfolios, the downside risks of assets should be considered, especially to increase the management of tail risks. For example, the CVAR minimization model used in this article can be used in the portfolio optimization process reduces the tail risk of the portfolio, so that the risk-adjusted return of the portfolio.  
   
 However, CVaR is not perfect. Since CVaR is the calculation of the mean value of tail losses exceeding VaR, the accuracy of tail loss distribution estimation will directly affect the calculation accuracy of CVaR. However, tail events often mean extreme market conditions, such as financial crisis events, when the correlation between asset prices often deviates from the normal market conditions, which makes it difficult for traditional methods to accurately estimate the distribution of extreme losses, and may affect the reliability of the calculation results of CVaR. In addition, the historical data of extreme market situation is needed when Backtest of CVaR is carried out. However, extreme market situation is an event with small probability and less data, which may also affect the reliability of the test.   
   
@@ -28,4 +28,5 @@ Although CVaR also has disadvantages, it is an indisputable fact that compared w
 
 **Reference**  
   
-Bertocchi M, Giacometti R, Ortobelli S, et al. _The Impact of Different Distributional Hypotheses on Returns in Asset Allocation[J]._ Finance Letters, 2005, 3(1): p17-p27.  
+Bertocchi M, Giacometti R, Ortobelli S, et al. _The Impact of Different Distributional Hypotheses on Returns in Asset Allocation[J]._ Finance Letters, 2005, 3(1): p17-p27.   
+Baoshuai Zhang, Ting Jiang, Xiaohua Zhou, Jun Duan. _A new method of portfolio optimization: Mean-CoVaR model_. Statistics and Decision, 2019, 35 (11). 
