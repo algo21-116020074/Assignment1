@@ -2,7 +2,7 @@
 
 **Abstract**  
   
-When used in risk measurement, CVaR not only takes into account the frequency of exceeding VaR value, but also the average loss exceeding VaR value. The measurement of tail loss is sufficient. A portfolio optimization model based on tail risk is constructed using CVAR and co-skewness matrix, and the portfolio optimization model is empirically tested using the underlying assets in the paper, which preliminarily verifies the effectiveness of the portfolio optimization model.  
+When used in risk measurement, CVaR takes into account not only the frequency of exceeding VaR value, but also the average loss exceeding VaR value. The measurement of tail loss is sufficient. A portfolio optimization model based on tail risk is constructed using CVAR and co-skewness matrix, and the portfolio optimization model is empirically tested using the underlying assets in the paper, which preliminarily verifies the effectiveness of the portfolio optimization model.  
    
 
 **Background** 
